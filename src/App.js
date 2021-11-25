@@ -8,8 +8,10 @@ function App() {
       <div className="container">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <h1>Gab's Dictionary</h1>
         </header>
         <main>
+          <h2>Search your favorite word</h2>
           <Dictionary />
         </main>
         <footer>Coded by Gabs 🌠</footer>
