@@ -1,8 +1,21 @@
-.App-header {
+body {
+  background: #addfb3 !important;
+  max-width: 100%;
+}
+.App a {
+  color: #99c49e;
+}
+.App header {
   margin: 30px 0;
 }
 .App-logo {
-  max-width: 150px;
+  max-width: 190px;
   display: block;
   margin: 0 auto;
+}
+.App footer {
+  text-align: center;
+}
+.App h1 {
+  text-align: center;
 }
