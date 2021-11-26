@@ -10,9 +10,9 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Gab's Dictionary</h1>
         </header>
+        <h2>Search your favorite word</h2>
         <main>
-          <h2>Search your favorite word</h2>
-          <Dictionary />
+          <Dictionary defaultKeyword="dog" />
         </main>
         <footer>Coded by Gabs 🌠</footer>
       </div>

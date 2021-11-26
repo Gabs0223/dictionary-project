@@ -1,12 +1,15 @@
-body {
-  background: #addfb3 !important;
-  max-width: 100%;
+.App {
+  background-color: #addfb33d;
+}
+.App .container {
+  max-width: fit-content;
+  margin: 0 auto;
 }
 .App a {
-  color: #99c49e;
+  color: yellowgreen;
 }
 .App header {
-  margin: 30px 0;
+  margin: 0px;
 }
 .App-logo {
   max-width: 190px;
