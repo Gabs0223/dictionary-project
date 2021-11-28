@@ -4,7 +4,7 @@ import "./Dictionary.css";
 import Definitions from "./Definitions";
 
 export default function Dictionary(props) {
-  let [keyword, setKeyword] = useState(props.defaulKeyword);
+  let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [definition, setDefinition] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
