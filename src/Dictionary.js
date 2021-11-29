@@ -16,9 +16,9 @@ export default function Dictionary(props) {
   }
 
   function searchWord() {
-    console.log(`${keyword}`);
+    //console.log(`${keyword}`);
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    console.log(apiUrl);
+    //console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);
 
     const pexelsApikey =
@@ -63,7 +63,7 @@ export default function Dictionary(props) {
           <div className="hint">suggested words: flower, dog, car...</div>
         </section>
         <Definitions definition={definition} />
-        <Photos photos={photos} />
+        <Photos photos={photos} name={keyword} />
       </div>
     );
   } else {

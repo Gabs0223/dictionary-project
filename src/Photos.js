@@ -2,6 +2,7 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
+  //console.log(`${props.name}`);
   if (props.photos) {
     return (
       <section className="Photos">
@@ -13,6 +14,7 @@ export default function Photos(props) {
                   src={photo.src.landscape}
                   className="img-fluid"
                   crossOrigin="anonymous"
+                  alt={props.name}
                 />
               </div>
             );
