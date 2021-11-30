@@ -1,12 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Pacifico&display=swap");
 .App {
-  background-color: #addfb33d;
+  background: linear-gradient(
+    343deg,
+    rgba(139, 215, 208, 1) 7%,
+    rgba(160, 223, 179, 1) 46%,
+    rgba(226, 254, 238, 1) 83%
+  );
+  font-family: "Nunito", sans-serif;
+  color: #6eb351;
 }
 .App .container {
-  max-width: fit-content;
+  max-width: 950px;
   margin: 0 auto;
 }
-.App a {
-  color: yellowgreen;
+.App .link {
+  font-weight: bold;
+  color: #429e9d;
 }
 .App header {
   margin: 0px;
@@ -18,7 +27,18 @@
 }
 .App footer {
   text-align: center;
+  font-size: larger;
+  color: #429e9d;
 }
-.App h1 {
+.App .titulo {
   text-align: center;
+  font-family: "Pacifico", cursive;
+  color: yellowgreen;
+  font-size: 60px;
+}
+.App .subtitulo {
+  text-align: center;
+  color: #7cb30d;
+  font-size: 40px;
+  font-weight: bold;
 }

@@ -12,6 +12,8 @@
   border: 1px solid #ddd;
 }
 .Dictionary .hint {
-  font-size: 11px;
+  font-size: 20px;
   margin-top: 5px;
+  font-style: oblique;
+  opacity: 0.7;
 }
